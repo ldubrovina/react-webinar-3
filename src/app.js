@@ -31,7 +31,7 @@ function App({store}) {
                                     {
                                         item.selectedCount > 0
                                         &&
-                                        <span className='Item-selections'> | Выделяли {item.selectedCount} раз</span>
+                                        <span className='Item-selected'> | Выделяли {item.selectedCount} раз</span>
                                     }
                                 </div>
                                 <div className='Item-actions'>
